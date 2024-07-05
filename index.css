@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.uno{
+    height: 64.1vh;
+}
+.dos{
+    height: 64.1vh;
+}
+.tres{
+    height: 71vh;
+}
+.cuatro{
+    height: 71vh;
+}
+.cinco{
+    height: 61vh;
+}
+.seis{
+    height: 61vh;
+}
+.siete{
+    height: 100vh;
+}
+section{
+    height: 80vh;
+    background-image:none black;
+}
+
+ul{
+    display: flex;
+    background-color:white;
+}
+
+li{
+    background-color:white;
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    background-color:white;
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li:hover{
+    background-color:rgb(160, 184, 184);
+}
+
+nav{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    min-height: 70vh;
+    text-align: center;
+}
+a{
+    color: black;
+}
+h2{
+    background-color: rgb(160, 184, 184);
+}
+.Logo{
+    width: 10px;
+    height: 150px;
+}
