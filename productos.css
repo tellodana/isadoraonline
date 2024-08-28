@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cajaisadora{
+    width: 30%;
+    min-width: 320px;
+    margin: 0 auto;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(160, 184, 184);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.cajacontenedora, .contenedorotros{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: 0 auto;
+}
+.caja_img{
+    height: 200px;
+    margin-bottom: 30px;
+}
+.caja_img> img{
+    height: 100%;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+h4{
+    text-align: center;
+    font-size: x-large;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+}
+.Logo{
+    height: 100px;
+    width: 20%;
+}
+.imglogo{
+    height: 100%;
+}

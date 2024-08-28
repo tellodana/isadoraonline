@@ -1,0 +1,93 @@
+main{
+     height: 70vh;
+     background-color:  rgb(160, 184, 184);
+     font-size: 40px;
+     font-family: Georgia, 'Times New Roman', Times, serif ;
+     text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+}
+.Logo{
+    height: 100px;
+    width: 20%;
+}
+.imglogo{
+    height: 100%;
+}
+.nosotros{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.contenedor{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+   margin: 0 auto;
+}
+ 
+ li{
+     background-color:white;
+     padding: 15px;
+     margin: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ li{
+     background-color:white;
+     padding: 15px;
+     margin: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ li:hover{
+     background-color:rgb(160, 184, 184);
+ }
+ 
+ nav{
+     background-color:white;
+     display: flex;
+     justify-content: space-between;
+ }
+ a{
+     color: black;
+ }
+ h1{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+ }
+ p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ @media (max-width:768px) {
+    .contenedor{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+       margin: 0 auto;
+    }
+ }
+ @media (max-width:500px) {
+    .Logo{
+        height: 50px;
+        width: ;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+      .contenedor{
+       grid-template-columns: 1fr;
+       margin: 0 auto;
+  }
+}
